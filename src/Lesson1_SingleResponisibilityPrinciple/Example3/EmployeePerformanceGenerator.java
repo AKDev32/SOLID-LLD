@@ -1,6 +1,6 @@
-package Lession1_SingleResponisibilityPrinciple.Example3;
+package Lesson1_SingleResponisibilityPrinciple.Example3;
 
-import Lession1_SingleResponisibilityPrinciple.Example2.BetterCode.Employee;
+import Lesson1_SingleResponisibilityPrinciple.Example2.BetterCode.Employee;
 
 public class EmployeePerformanceGenerator {
 

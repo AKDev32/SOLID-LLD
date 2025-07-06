@@ -1,4 +1,4 @@
-package Lession1_SingleResponisibilityPrinciple.HomeWork;
+package Lesson1_SingleResponisibilityPrinciple.HomeWork;
 
 class Order{
     // .. some properties

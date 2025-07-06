@@ -1,4 +1,4 @@
-package Lession1_SingleResponisibilityPrinciple.Example4.BetterCode;
+package Lesson1_SingleResponisibilityPrinciple.Example4.BetterCode;
 
 public class UserManager {
 
