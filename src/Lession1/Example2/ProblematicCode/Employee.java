@@ -1,4 +1,4 @@
-package Lession1;
+package Lession1.Example2.ProblematicCode;
 
 public class Employee {
 
@@ -10,6 +10,10 @@ public class Employee {
 
     public String fetchBioData () {
         return "Some Bio Data";
+    }
+
+    public double calculateSalary () {
+        return 0;
     }
 
     public void printPerformanceData () {
