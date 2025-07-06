@@ -1,4 +1,4 @@
-package Lession1.Example2.ProblematicCode;
+package Lession1_SingleResponisibilityPrinciple.Example2.ProblematicCode;
 
 public class Employee {
 
