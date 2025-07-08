@@ -1,6 +1,7 @@
-package Lesson4_LiskovSubstitutionPrinciple.ProblematicCode;
+package Lesson4_LiskovSubstitutionPrinciple.BetterCode;
 
-public class VisaCard extends CreditCard{
+
+public class VisaCard extends CreditCard implements InternationPaymentCompatibleCreditCard{
     @Override
     public void tapAndPay() {
         System.out.println("Tap and Pay implementation of VISA");
@@ -22,12 +23,7 @@ public class VisaCard extends CreditCard{
     }
 
     @Override
-    public void upiPayment() {
-
-    }
-
-    @Override
-    public void InternationPayment() {
-        System.out.println("Internation payment implementation of VISA");
+    public void internationalPayment() {
+        System.out.println("International Payment implementation of VISA");
     }
 }

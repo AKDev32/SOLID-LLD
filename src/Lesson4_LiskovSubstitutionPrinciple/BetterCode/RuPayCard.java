@@ -1,6 +1,6 @@
-package Lesson4_LiskovSubstitutionPrinciple.ProblematicCode;
+package Lesson4_LiskovSubstitutionPrinciple.BetterCode;
 
-public class RuPayCard extends CreditCard{
+public class RuPayCard extends CreditCard implements UpiCompatibleCreditCard{
     @Override
     public void tapAndPay() {
         System.out.println("Tap and Pay implementation of RuPayCard");
@@ -23,11 +23,7 @@ public class RuPayCard extends CreditCard{
 
     @Override
     public void upiPayment() {
-        System.out.println("UPI payment implementation on RuPayCard");
-    }
-
-    @Override
-    public void InternationPayment() {
 
     }
+
 }
