@@ -1,4 +1,4 @@
-package Lesson2_OpenClosedPrinciple.HomeWork;
+package Lesson2_OpenClosedPrinciple.HomeWork.ProblematicCode;
 
 enum ProductType {
     ELECTRONICS,
