@@ -32,39 +32,7 @@ public class Product {
         
     }
 
-    public String setName (String name) {
-        return this.name;
-    }
-
-    public String setDescription (String description) {
-        return this.description;
-    }
-
-    public double setPrice (double price) {
-        return this.price;
-    }
-
-    public String setBrand (String brand) {
-        return this.brand;
-    }
-
-    public String setCategories (String categories) {
-        return this.categories;
-    }
-
-    public String setCreatedAt (String createdAt) {
-        return this.createdAt;
-    }
-
-    public String setUpdatedAt (String updatedAt) {
-        return this.updatedAt;
-    }
-
-    public double setDiscount (double discount) {
-        return this.discount;
-    }
-
-//    public int[] setSetOfImages (int[] setOfImages) {
-//        return this.setOfImages;
+//    Product (String name, String brand, double price) {
+//
 //    }
 }
